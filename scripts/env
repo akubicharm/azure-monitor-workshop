@@ -1,0 +1,21 @@
+export RGNAME="$PREFIX"
+export LOCATION="Japan East"
+#export REGION="japaneast"
+export REGION="eastasia"
+export COSMOS_ACCOUNT="$PREFIX$SUFFIX"
+export COSMOS_DB="ToDoDB"
+export COSMOS_CONT="ToDo"
+export COSMOS_PARTKEY="/todoId"
+export COSMOS_THROUGHPUT="400"
+export COLLECTION_NAME="ToDo"
+
+export AP_PLAN=Linux$PREFIX$SUFFIX
+export WEBAPPNAME="ui$PREFIX$SUFFIX"
+export WEBAPPRUNTIME="python|3.7"
+#export WEBAPPRUNTIME="python|3.6"
+
+export RGNAME_WIN="$PREFIX"_win
+export AP_PLAN_WIN=Win$PREFIX$SUFFIX
+export FAPPNAME=fapp"$PREFIX$SUFFIX"
+export STORAGE="storage$PREFIX$SUFFIX"
+export FUNCRUNTIME="node"
