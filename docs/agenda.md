@@ -1,9 +1,7 @@
-1. サンプルアプリケーションのデプロイ
+1. [Azure Monitor / App Insightsの基本的な設定](./monitoringWebApp.md)
 
-2. Azure Monitor / App Insightsの基本的な設定
+2. [アプリケーションの例外をチェック](./monitoringException.md)
 
-3. アプリケーションの例外をチェック
+3. [アプリケーションのパフォーマンスをチェック](./monitoringPerformance.md)
 
-4. アプリケーションのパフォーマンスをチェック
-
-5. メトリクスに基づくアプリケーションのオートスケール
+4. [メトリクスに基づくアプリケーションのオートスケール](./autoscale.md)
