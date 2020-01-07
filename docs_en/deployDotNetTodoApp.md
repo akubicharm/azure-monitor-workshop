@@ -119,7 +119,6 @@ Get CosmosDB URI and Primary Key
 
 ##### __for Azure CLI__
 
-> --- 
 >
 > As following command shows primaryKey.
 > ```
@@ -130,16 +129,16 @@ Get CosmosDB URI and Primary Key
 >```
 >az cosmosdb show -n $COSMOS_ACCOUNT -g $RGNAME --query documentEndpoint
 >```
-> ---
 
 
 ##### __for Azure Portal__
-> ---
+
+>
 > 1. Access Azure Portal and select resource group.
 > 2. Select cosmosDB from resource list.
 > 3. Select [keys] in Settings setion on the left pane.
 > 4. Check URI and PRIMARY KEY.
-> ---
+>
 
 
 
