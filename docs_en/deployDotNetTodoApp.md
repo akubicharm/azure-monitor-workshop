@@ -1,7 +1,7 @@
 # Deploy Dotnet Todo App
 
 In this task, deploy sample application to Azure.
-Sample application is provided on github. Please check the URL in references section.
+Sample application is provided on github. Please check the https://github.com/Azure-Samples/cosmos-dotnet-core-todo-app.
 
 
 ## Step1: Deploy CosmosDB
@@ -119,7 +119,8 @@ Get CosmosDB URI and Primary Key
 
 ##### __for Azure CLI__
 
-> ---
+> --- 
+>
 > As following command shows primaryKey.
 > ```
 > az cosmosdb keys list -n $COSMOS_ACCOUNT -g $RGNAME  --query primaryMasterKey
@@ -186,11 +187,50 @@ And choose `Azure > Sign in` menu.
 
 * After a short time, Visual Studio Code will complete the deployment and a visual prompt to Browse Website should appear.
 
+### 4. Enable App Service Logs
 
-### 4. Access applicatoin with URL
+* On the Azure Portal, select App Service resource which is created on the last tasks.
+* Select [App Service Logs] menu in the Monitoring section.
+* Set enabled of logging
+ * Application Logging (filesystem)
+ * Web server logging (File System)
+ * Retention Period(Days)
+ * Detailed error messages
+ * Failed request tracing
+* Clik [Save] button.
+
+
+### 5. Access application from Browser
+
+Access WebApp URL from Browser, and execute  List, Create.
+
+This application can intensionally throw exception from some API.
+
+##### (a) Throw ArgumentException
+
+When you create a task with title name 'Error', application thorws ArgumentException.
+
+Followin the steps.
+
+1. Access WebApp URL
+2. Click [Create New]
+3. Input 'Error' into Name field and click [Create] button
+
+
+##### (b) Exception occured on CosmosDB
+
+Sample application implemented ForceError API. This API attempts to get Item from CosmosDB with id (null).
+
+Following the steps.
+
+1. Access WebApp URL
+2. Click [Force Error on CosmosDB]
+
 
 
 ## References
 * https://github.com/Azure-Samples/cosmos-dotnet-core-todo-app
 * https://docs.microsoft.com/en-us/azure/javascript/tutorial-vscode-azure-app-service-node-01#_install-the-extension
 
+
+[Agenda](./agenda.md) | [Next](./executeApp.md)
