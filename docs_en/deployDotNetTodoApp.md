@@ -100,7 +100,7 @@ az cosmosdb sql container create \
 ### 1. clone sourcecode from github
 
 ```
-git clone https://github.com/Azure-Samples/cosmos-dotnet-core-todo-app
+git clone https://github.com/akubicharm/cosmos-dotnet-core-todo-app
 ```
 
 ### 2. build application  readme.md 
@@ -144,6 +144,7 @@ Get CosmosDB URI and Primary Key
 
 ### 4. Edit application settings file.
 
+Copy appsettings.json.sample to appsettings.json.
 Edit appsettings.json files with CosmosDB URI and PRIMARYKEY to enable connecting CosmosDB.
 
 ```
@@ -209,7 +210,7 @@ This application can intensionally throw exception from some API.
 
 When you create a task with title name 'Error', application thorws ArgumentException.
 
-Followin the steps.
+Following the steps.
 
 1. Access WebApp URL
 2. Click [Create New]
