@@ -146,9 +146,13 @@ Get CosmosDB URI and Primary Key
 
 Copy appsettings.json.sample to appsettings.json.
 Edit appsettings.json files with CosmosDB URI and PRIMARYKEY to enable connecting CosmosDB.
+Edit appsettings.json files with Application Insighs Instrumentation Key.
 
 ```
 {
+  "ApplicationInsights": {
+    "InstrumentationKey" : "[YOUR APPINSIGHTS INSTRUMENTATION KEY"
+  },
   "Logging": {
     "LogLevel": {
       "Default": "Warning"
