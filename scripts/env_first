@@ -1,0 +1,2 @@
+export SUFFIX="keomizo"
+export PREFIX="ws$RANDOM"
