@@ -4,13 +4,13 @@ Find and diagnose run-time exception with Azure Application Insights.
 
 > Application Insightsを利用して、アプリケーションの例外の発生回数や時間、また、その内容を確認します。
 
-#### (1) Show Application Insight 
+#### (1) Show Application Insight
 
 Logged into Azure Portal and choose [Monitor] on left pane.
 
-On left pane of Azure Monitor view, choose [Application] under Insights section.
+In left pane of Azure Monitor view, choose [Application] under Insights section.
 
-Choose target Application Insights resources from Application Insights List.
+Select target Application Insights resources from Application Insights List.
 
 > Azureポータル画面にログインし、左Paneのメニューから[Monitor]を選択します。
 >
@@ -22,7 +22,7 @@ Choose target Application Insights resources from Application Insights List.
 #### (2) Display Failures
 
 
-On right pane of Application Insights View, choose [Failure]. or choose [Overview] and click [Failed requests graph].
+In right pane of Application Insights View, select [Failure]. or select [Overview] and click [Failed requests graph].
 
 > Application Insightsの画面の右Paneで [Failure] を選択する。または、Overviewの画面で [Failed requests] のグラフをクリックします。
 
@@ -36,11 +36,11 @@ Reduce the time window to zoom in on the period where the failure rate shows a s
 
 ![Failureの表示](../docs/images/failed-requests-window.png)
 
-#### (4) Display failures list 
+#### (4) Display failures list
 
-At 'OPERATION NAME" list On the center pane, choose target operation to examine.
+At 'OPERATION NAME" list in the center pane, select target operation to examine.
 
-Next, click [Drill into...] button on the botom of righst pane,and then how the list of error.
+Next, click [Drill into...] button in the right bottom pane, and then list of error is appeared.
 
 
 > 真ん中のPaneのPaneの"OPERATION NAME"の一覧で、確認したい操作を選択します。次に、右Pane下部のDrill into... の下のボタンをクリックして、エラーの一覧を表示します。

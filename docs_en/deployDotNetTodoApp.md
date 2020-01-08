@@ -103,7 +103,7 @@ az cosmosdb sql container create \
 git clone https://github.com/akubicharm/cosmos-dotnet-core-todo-app
 ```
 
-### 2. build application  readme.md 
+### 2. build application  readme.md
 
 Build application according to readme.md
 
@@ -221,7 +221,7 @@ Following the steps.
 3. Input 'Error' into Name field and click [Create] button
 
 
-##### (b) Exception occured on CosmosDB
+##### (b) Exception occurred on CosmosDB
 
 Sample application implemented ForceError API. This API attempts to get Item from CosmosDB with id (null).
 
@@ -233,7 +233,6 @@ Following the steps.
 
 
 ## References
-* https://github.com/Azure-Samples/cosmos-dotnet-core-todo-app
 * https://docs.microsoft.com/en-us/azure/javascript/tutorial-vscode-azure-app-service-node-01#_install-the-extension
 
 

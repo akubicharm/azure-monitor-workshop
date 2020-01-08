@@ -9,11 +9,11 @@ Azure Application Insights collects telemetry from application to help analyze o
 
 #### (1) Display Application Insight view
 
-Logged into Azure Portal and choose [Monitor] on the left pane.
+Logged into Azure Portal and select [Monitor] in the left pane.
 
-On the left pane of Azure Monitor view, choose [Application] from Insights section.
+In the left pane of Azure Monitor view, select [Application] from Insights section.
 
-Choose target Application Insights resource from List.
+Select target Application Insights resource from List.
 
 > Azureポータル画面にログインし、左Paneのメニューから[Monitor]を選択します。
 >
@@ -23,7 +23,7 @@ Choose target Application Insights resource from List.
 
 #### (2) Display performance metrics
 
-Choose [Performance] on the right pane of Application Insights view. Or click a graph on Overview.
+Select [Performance] in the right pane of Application Insights view. Or click the graph on Overview.
 
 > Application Insightsの画面の右Paneで[Performance]を選択する。または、Overviewの画面でのグラフをクリックします。
 
@@ -34,13 +34,13 @@ Choose [Performance] on the right pane of Application Insights view. Or click a 
 
 * Operation Tab: Shows 'Request Count', 'Operation Time' etc of called Application API.
 
-* Dependencies Tab: Shows 'Dependency response time', 'Depencency count' etc of other services called from appliation.
+* Dependencies Tab: Shows 'Dependency response time', 'Dependency count' etc of other services called from application.
 
-Display Avarage execution time, Operation count in the Performance pane. In addition to this, show rerated operation.
+Display Average execution time, Operation count in the Performance pane. In addition to this, show rerated operation.
 
 > * Operationタブ : アプリケーションのAPIが呼ばれた数や時間
 > * Dependencies : アプリケーションが呼び出した他のサービスの呼び出し回数や時間
-> 
+>
 > パフォーマンスデータには、平均実行時間やオペレーションの回数が表示されます。また、そのオペレーションが依存している呼び出しなども参照することができます。
 
 
@@ -48,7 +48,7 @@ Display Avarage execution time, Operation count in the Performance pane. In addi
 
 #### (4) Check performance metrics a call stack
 
-Select on one of operation from OPERATION NAME LIST on Operations tab, and cick [Drill into...] button in the bottom right.
+Select on one of operation from OPERATION NAME LIST on Operations tab, and click [Drill into...] button in the bottom right.
 This will bring up the end-to-end transaction details
 
 
@@ -80,7 +80,7 @@ Select on one of Application Insights resource from List.
 
 #### (2) Execute Sample Query
 
-Select [Logs (Anapytics)] from Monitoring section in the left pane of Application Insights view.
+Select [Logs (Analytics)] from Monitoring section in the left pane of Application Insights view.
 
 Execute sample query in the right pane.
 
@@ -94,7 +94,7 @@ Execute sample query in the right pane.
 
 Select [Performance] in the left pane of Application Insights view.
 
-Select on one of item from [View in Logs(Analytics)] pull-down meny in the left above.
+Select on one of item from [View in Logs(Analytics)] pull-down menu in the left above.
 
 Following images shows result of Requests query.
 

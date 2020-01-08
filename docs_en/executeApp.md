@@ -14,9 +14,9 @@ https://www.getpostman.com/
 
 #### 1. Access WebApp Index page
 
-1. Click [+] in the right pane and create new reuqest tab.
+1. Click [+] in the right pane and create new request tab.
 
-2. Select `GET` method and input Web App URL
+2. Select `GET` method and input Your Web App URL. (e.g. _https://ws12345678.azurewebsites.net/_)
 
 3. Click [Send]
 
@@ -34,7 +34,7 @@ https://www.getpostman.com/
 
 4. Back to Postman GUI and Click [+] in the right pane and reate new request tab
 
-5. Select `GET` method and Input `[YOUR WEB APP URL]/Item/Details`
+5. Select `GET` method and Input `[YOUR WEB APP URL]/Item/Details` (e.g. _https://ws12345678.azurewebsites.net/Item/Details_)
 
 6. Input query parameter. Key is ID, Value is ItemId is checked last task.
 ![postman](../docs/images/postman_get_details.png)
@@ -44,9 +44,9 @@ https://www.getpostman.com/
 
 #### 3. Access WebApp Force Error page
 
-1. Click [+] in the right pane and create new reuqest tab.
+1. Click [+] in the right pane and create new request tab.
 
-2. Select `GET` method and input URL `[YOUR WEBAPP URL]/Item/ForceError`
+2. Select `GET` method and input URL `[YOUR WEBAPP URL]/Item/ForceError` (e.g. _https://ws12345678.azurewebsites.net/Item/ForceError_)
 
 3. Click [Send]
 
@@ -59,13 +59,13 @@ https://www.getpostman.com/
 
 3. Click [Save] button in the right pane.
 
-4. Scroll down on  'SAVE REQUEST' Dialog
+4. Scroll down on 'SAVE REQUEST' Dialog
 
 5. Select collection name and click [Save test] bottom in rigth bottom.
 
 Repeat 3-5 operation in each Request tabs.
 
-6. Click [Runnner] button in the left above.
+6. Click [Runner] button in the left above.
 
 ![postman](../docs/images/postman_launch_runner.png)
 
