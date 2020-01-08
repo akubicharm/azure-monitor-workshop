@@ -1,7 +1,7 @@
 # Deploy Dotnet Todo App
 
 In this task, deploy sample application to Azure.
-Sample application is provided on github. Please check the https://github.com/Azure-Samples/cosmos-dotnet-core-todo-app.
+Sample application is provided on github. Please check the https://github.com/akubicharm/cosmos-dotnet-core-todo-app
 
 
 ## Step1: Deploy CosmosDB
@@ -108,7 +108,7 @@ git clone https://github.com/akubicharm/cosmos-dotnet-core-todo-app
 Build application according to readme.md
 
 ```
-dotnet buld
+dotnet build
 ```
 
 ### 3. get cosmosDB information.
