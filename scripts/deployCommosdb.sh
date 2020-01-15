@@ -34,3 +34,5 @@ az cosmosdb keys list \
     --type connection-strings
 EOF
 
+
+chmod 755 forCosmos
