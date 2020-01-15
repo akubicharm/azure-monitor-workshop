@@ -143,6 +143,4 @@ Application Insights画面の右Paneで APPLICATION INSIGHTSの一覧の[trace]�
 ![App Insights Request](images/monitor_appinsights_log.png)
 
 
-```
-
 [Agenda](./agenda.md) | [Next](./deploySampleApp.md)
