@@ -5,7 +5,7 @@
 ----
 ## ステップ1. 静的Webサイトのデプロイ
 
-ここでは、Azure App Service で、静的Webサイトを作成しApplication Insightsで監視できるようにします。
+Azure App Service で、静的Webサイトを作成しApplication Insightsで監視できるようにします。
 
 ### 1. App Serviceのデプロイ
 
@@ -13,8 +13,6 @@
 ##### (1) Location、App Nameを環境変数に設定
 bashの例）　値は適宜変更してください。
 ```
-# export LOC="Japan East"
-#export SUFFIX="myname"
 export REGION="japaneast"
 export PREFIX="ws$RANDOM$RANDOM"
 export RGNAME="$PREFIX"
@@ -23,7 +21,7 @@ export INSIGHTSWEB="$PREFIX"
 
 ##### (2) Web Appの作成
 
-ここでは、サンプルアプリケーションの Git リポジトリを指定してアプリケーションをデプロイします。
+サンプルアプリケーションの Git リポジトリを指定してアプリケーションをデプロイします。
 
 ```
 az group create --name $RGNAME  -l $REGION
@@ -146,3 +144,5 @@ Application Insights画面の右Paneで APPLICATION INSIGHTSの一覧の[trace]�
 
 
 ```
+
+[Agenda](./agenda.md) | [Next](./deploySampleApp.md)

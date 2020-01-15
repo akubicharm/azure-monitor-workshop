@@ -26,3 +26,6 @@ Application Insightsの画面の右Paneで[Failure]を選択する。または�
 真ん中のPaneのPaneの"OPERATION NAME"の一覧で、確認したい操作を選択します。次に、右Pane下部のDrill into... の下のボタンをクリックして、エラーの一覧を表示します。
 エラー一覧から、エラーをクリックすると JavaのExceptionなどの詳細を参照できます。
 ![Failureの表示](images/failed-requests-search.png)
+
+
+[Agenda](./agenda.md) | [Next](./monitoringPerformance.md)

@@ -15,7 +15,7 @@ Application Insights一覧から、対象のApplication Insightsを選択しま�
 
 #### (2) パフォーマンスデータの表示
 Application Insightsの画面の右Paneで[Performance]を選択する。または、Overviewの画面でのグラフをクリックします。
-![パフォーマンスの表示](images/failed-requests.png)
+![パフォーマンスの表示](images/perf-overview.png)
 
 
 #### (3) パフォーマンスデータの確認
@@ -57,3 +57,8 @@ Application Insights画面の左PaneでPerformanceをクリックします。
 
 図は、Requestsのクエリの実行結果です。
 ![SampleQuery](images/perf-query-requests.png)
+
+
+
+
+[Agenda](./agenda.md) | [Next](./autoscale.md)
