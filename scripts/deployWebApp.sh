@@ -1,7 +1,7 @@
 . ./env
 
-export FUNC_URL=[FUNCTION URL]
-export INSTRUMENTATION_KEY=[App Insights's Instrumentation Key]
+export FUNC_URL="https://$FAPPNAME.azurewebsites.net"
+export INSTRUMENTATION_KEY="[App_Insights_Instrumentation_Key]"
 
 
 cat << EOF > forWebapp

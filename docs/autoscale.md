@@ -10,6 +10,8 @@ Azure モニター画面の左Paneから[Autoscale]を選択して、オート�
 
 スケールモードで[メトリックに基づいてスケール] /* Scale based on a metric */ を選択します。
 
+![autoscale](./images/autoscale-overview.png)
+
 #### (3) ルールの追加
 
 画面の下の方の [+規則を追加する] /* +Add a rule */ をクリックして、ルールの入力ダイアログを表示します。
@@ -25,3 +27,20 @@ Azure モニター画面の左Paneから[Autoscale]を選択して、オート�
  * 期間（分）- 1
 
 画面下部の[追加]ボタンをクリックします。
+
+![autoscale](./images/autoscale-condition.png)
+
+
+#### (5) アプリケーションに負荷をかける
+
+##### Postman を利用する場合
+[Postman](https://www.getpostman.com/postman)などを利用すると、繰り返し実行などができて便利です。
+
+PostmanでGET呼び出しの設定後、画面右上のSaveボタンでCollectionを保存します。保存後、画面左上の[Runner]ボタンをクリックして、繰り返し実行するための設定を行い、Web Appに負荷をかけます
+![Postman](./images/postman-view.png)
+
+#### (6) スケールを確認
+App Service Planを確認して、インスタンスが1から２に増えていることを確認します。
+
+
+[Agenda](./agenda.md)
