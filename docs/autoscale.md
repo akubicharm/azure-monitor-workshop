@@ -41,3 +41,6 @@ PostmanでGET呼び出しの設定後、画面右上のSaveボタンでCollectio
 
 #### (6) スケールを確認
 App Service Planを確認して、インスタンスが1から２に増えていることを確認します。
+
+
+[Agenda](./agenda.md)
